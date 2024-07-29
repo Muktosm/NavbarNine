@@ -1,0 +1,53 @@
+/* font link part start */
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+/* font link part end */
+
+/* root vairable part start */
+:root {
+  --DM_sans: "DM Sans", sans-serif;
+}
+/* root variable part end */
+
+/* common css part start */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+ul,
+ol {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+/* common css part end */
+/* navbar part satrt */
+.menu {
+  width: 537px;
+  margin: 30px auto;
+}
+.menu > ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu > ul > li > a {
+  color: #1e0e62;
+  font: 500 16px var(--DM_sans);
+  line-height: 26px;
+}
+
+li:nth-last-child(2) > a > i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  width: 21px;
+  height: 21px;
+  background: #1e0e62;
+  text-align: center;
+  border-radius: 50%;
+}
+/* navbar part end */
